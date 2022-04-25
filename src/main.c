@@ -304,6 +304,11 @@ void cgc_my_srand(uint32_t seed)
 void cgc_scramble(char* dst, char* src, cgc_size_t len)
 {
 
+  if ( (dst == NULL) || (src == NULL) )
+  {
+    return;
+  }
+
   int i = 0;
   uint32_t r = (cgc_RANDOM() % 3) + 2;
 
@@ -383,6 +388,8 @@ int main(int cgc_argc, char *cgc_argv[])
   READLINE(buf, BUF_SIZE);
   
   i = cgc_toInt(buf[0], buf[1]);
+
+  i = i % NUM_WORDS;
 
   cgc_scramble(buf, cgc_gWords[i], BUF_SIZE);
 
