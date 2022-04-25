@@ -1,0 +1,67 @@
+path: "/usr/local/share/polls/WordCompletion/poller/for-release"
+generator: 
+  script: "python2 -B /usr/local/share/pyshared/cgc/generate-polls/generate-polls"
+  path: "/usr/local/share/polls/WordCompletion/poller/"
+cwd: "/usr/local/share/pyshared/cgc"
+script: "python2 /usr/local/share/pyshared/cgc/cb-test.py"
+cases:
+  t1:
+    order: 1
+    file: GEN_00000_00000.xml
+  t2:
+    order: 2
+    file: GEN_00000_00001.xml
+  t3:
+    order: 3
+    file: GEN_00000_00002.xml 
+  t4:
+    order: 4
+    file: GEN_00000_00003.xml
+  t5:
+    order: 5
+    file: GEN_00000_00004.xml
+  t6:
+    order: 6
+    file: GEN_00000_00005.xml
+  t7:
+    order: 7
+    file: GEN_00000_00006.xml
+  t8:
+    order: 8
+    file: GEN_00000_00007.xml
+  t9:
+    order: 9
+    file: GEN_00000_00008.xml
+  t10:
+    order: 10
+    file: GEN_00000_00009.xml
+  t11:
+    order: 11
+    file: GEN_00000_00010.xml
+  t12:
+    order: 12
+    file: GEN_00000_00011.xml
+  t13:
+    order: 13
+    file: GEN_00000_00012.xml
+  t14:
+    order: 14
+    file: GEN_00000_00013.xml
+  t15:
+    order: 15
+    file: GEN_00000_00014.xml
+  t16:
+    order: 16
+    file: GEN_00000_00015.xml
+  t17:
+    order: 17
+    file: GEN_00000_00016.xml
+  t18:
+    order: 18
+    file: GEN_00000_00017.xml
+  t19:
+    order: 19
+    file: GEN_00000_00018.xml
+  t20:
+    order: 20
+    file: GEN_00000_00019.xml

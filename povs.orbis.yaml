@@ -1,0 +1,9 @@
+YAN01_00011:
+  cwd: "/usr/local/share/pyshared/cgc"
+  script: "python2 /usr/local/share/pyshared/cgc/cb-test.py"
+  path: "/usr/local/share/povs/WordCompletion"
+  args: " --cores_path /cores --should_core"
+  cases:
+    pov_1:
+      order: 1
+      file: "pov_1.pov"
