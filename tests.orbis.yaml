@@ -8,60 +8,80 @@ cases:
   t1:
     order: 1
     file: GEN_00000_00000.xml
+    timeout: 1
   t2:
     order: 2
     file: GEN_00000_00001.xml
+    timeout: 1
   t3:
     order: 3
     file: GEN_00000_00002.xml 
+    timeout: 0
   t4:
     order: 4
     file: GEN_00000_00003.xml
+    timeout: 0
   t5:
     order: 5
     file: GEN_00000_00004.xml
+    timeout: 1
   t6:
     order: 6
     file: GEN_00000_00005.xml
+    timeout: 0
   t7:
     order: 7
     file: GEN_00000_00006.xml
+    timeout: 1
   t8:
     order: 8
     file: GEN_00000_00007.xml
+    timeout: 0
   t9:
     order: 9
     file: GEN_00000_00008.xml
+    timeout: 0
   t10:
     order: 10
     file: GEN_00000_00009.xml
+    timeout: 0
   t11:
     order: 11
     file: GEN_00000_00010.xml
+    timeout: 1
   t12:
     order: 12
     file: GEN_00000_00011.xml
+    timeout: 0
   t13:
     order: 13
     file: GEN_00000_00012.xml
+    timeout: 0
   t14:
     order: 14
     file: GEN_00000_00013.xml
+    timeout: 1
   t15:
     order: 15
     file: GEN_00000_00014.xml
+    timeout: 0
   t16:
     order: 16
     file: GEN_00000_00015.xml
+    timeout: 0
   t17:
     order: 17
     file: GEN_00000_00016.xml
+    timeout: 0
   t18:
     order: 18
     file: GEN_00000_00017.xml
+    timeout: 0
   t19:
     order: 19
     file: GEN_00000_00018.xml
+    timeout: 0
   t20:
     order: 20
     file: GEN_00000_00019.xml
+    timeout: 0

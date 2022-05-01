@@ -7,3 +7,4 @@ YAN01_00011_1:
     pov_1:
       order: 1
       file: "pov_1.pov"
+      timeout: 0
